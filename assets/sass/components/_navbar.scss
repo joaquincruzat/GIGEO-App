@@ -1,0 +1,22 @@
+//Navbar
+.navbar-brand {
+    width: 75%;
+
+&__logo {
+    width: 30%;
+
+}
+
+}
+
+@media  screen and (min-width: 768px) {
+.navbar-brand__logo {
+    width: 15%;
+}
+    
+}
+
+.nav-item  {
+    font-size: $large;
+    color: $black;
+}

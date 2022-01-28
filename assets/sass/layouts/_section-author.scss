@@ -1,0 +1,36 @@
+.section-author {
+    padding: 2%;
+    margin: 0;
+    border-bottom: solid;
+    border-color: $platinum;
+    border-width: 1px;
+
+}
+
+.section-author__img {
+    width: 15%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.section-author__text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+.section-author__title {
+    font-size: $large;
+    font-weight: $bold;
+}
+
+.section-author__subtitle {
+    font-size: $medium;
+    color: $platinum;
+    margin-left: 3%;
+    margin-top: -5%;
+}
+
+.prueba2 {
+    text-align: right;
+}
