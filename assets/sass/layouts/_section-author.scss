@@ -5,7 +5,12 @@
     border-color: $platinum;
     border-width: 1px;
 
+@media screen and (max-width: 992px){
+    text-align: center;
 }
+}
+
+
 
 .section-author__img {
     width: 15%;
@@ -31,6 +36,18 @@
     margin-top: -5%;
 }
 
-.prueba2 {
+.section-author__buttons {
     text-align: right;
+    vertical-align: middle;
+}
+
+.section-author__button1 {
+    background-color: $coral;
+    font-size: $large;
+    margin-right: 2%;
+}
+
+.section-author__button2 {
+    background-color: $lightblue;
+    font-size: $large;
 }

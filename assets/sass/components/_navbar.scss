@@ -1,17 +1,17 @@
 //Navbar
 .navbar-brand {
-    width: 75%;
+    width: 50%;
 
 &__logo {
-    width: 30%;
+    width: 50%;
 
 }
 
 }
 
-@media  screen and (min-width: 768px) {
+@media  screen and (min-width: 992px) {
 .navbar-brand__logo {
-    width: 15%;
+    width: 30%;
 }
     
 }
@@ -19,4 +19,24 @@
 .nav-item  {
     font-size: $large;
     color: $black;
+}
+
+button.navbar-toggler {
+    border: transparent;
+    text-align: right;
+}
+.navbar-toggler.collapsed {
+    border: transparent;
+    text-align: right;
+}
+
+.navbar-toggler-icon {
+    color: $black;
+    border-color: transparent;
+}
+
+.navbar-collapse
+
+{
+    text-align: right;
 }

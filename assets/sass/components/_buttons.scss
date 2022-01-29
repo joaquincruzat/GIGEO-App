@@ -1,1 +1,10 @@
 //Buttons
+button{
+    height: 70px;
+    width: 160px;
+    font-family: $primary-font;
+    font-size: $x-large;
+    color: $white;
+    border: none;
+    vertical-align: middle;
+}
